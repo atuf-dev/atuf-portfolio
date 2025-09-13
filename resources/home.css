@@ -91,7 +91,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-img {
+#atuf-exp-img {
   max-width: 60%;
   margin-left: 50px;
 }
@@ -941,23 +941,28 @@ only screen and (min-width: 1441px) {
 /* Default (Desktop view) */
 .logo-img {
   width: 50%;
-  max-width: 180px;
+  max-width: 230px;
   /* just in case screen is very large */
+}
+
+.lang-img {
+  width: 50%;
+  max-width: 100px;
 }
 
 /* Tablet (768px – 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .logo-img {
-    width: 18%;
-    max-width: 140px;
+    width: 50%;
+    max-width: 230px;
   }
 }
 
 /* Mobile (up to 767px) */
 @media only screen and (max-width: 767px) {
   .logo-img {
-    width: 60%;
-    max-width: 120px;
+    width: 100%;
+    max-width: 100px;
   }
 }
 
@@ -1366,8 +1371,8 @@ only screen and (min-width: 1441px) {
 }
 
 .contact-spin svg {
-  bottom: 200px;
-  right: 40px;
+  bottom: 83px;
+  right: 256px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px),
@@ -1507,7 +1512,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 @media only screen and (min-width: 1280px) and (max-width: 1440px),
 only screen and (min-width: 1441px) {
   .say-hello-email {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -1840,11 +1845,11 @@ only screen and (min-width: 1441px) {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-@media only screen and (min-width: 576px) {
+/* @media only screen and (min-width: 576px) {
   .tab-contents-experience {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-}
+} */
 
 .experience-tab-item {
   padding-top: 30px;
@@ -2551,9 +2556,9 @@ textarea.contact-form-control {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-.portfolio-image {
+/* .portfolio-image {
   width: 60vw;
-}
+} */
 
 .portfolio-image img {
   transition: transform 0.4s ease;
@@ -2572,10 +2577,11 @@ textarea.contact-form-control {
   color: #333;
 }
 
+/* 
 .projectImg {
   margin-top: 20px;
   width: 100%;
   height: 250px;
   object-fit: cover;
   border-radius: 12px;
-}
+} */
