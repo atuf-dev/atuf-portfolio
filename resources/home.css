@@ -1384,6 +1384,13 @@ only screen and (min-width: 1441px) {
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .contact-spin svg {
+    right: 634px;
+    bottom: 30px;
+  }
+}
+
 .hero-btn-wraper {
   margin-bottom: 50px;
 }
@@ -2585,3 +2592,11 @@ textarea.contact-form-control {
   object-fit: cover;
   border-radius: 12px;
 } */
+
+@media screen and (min-width: 1920px) {
+  #main-atuf-avatar-one-image {
+    width: 27% !important;
+    margin-right: 240px !important;
+    margin-top: 50px !important;
+  }
+}
