@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project | Atuf Shaikh</title>
+    <meta name="description" content="A project built by Atuf Shaikh, a full stack developer." />
+    <script>
+      try {
+        document.documentElement.dataset.theme = localStorage.getItem('theme') || 'light'
+      } catch {
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/pages/project.jsx"></script>
+  </body>
+</html>
